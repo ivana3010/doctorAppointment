@@ -4,7 +4,7 @@ import { assets } from '../assets/assets';
 
 const Header = () => {
   return (
-    <div className="flex flex-col-reverse md:flex-row items-center bg-blue-50 rounded-xl px-6 md:px-12 lg:px-20 py-10 shadow-xl">
+    <div className="flex flex-col-reverse md:flex-row items-center bg-blue-300 bg-opacity-20 rounded-xl px-6 md:px-12 lg:px-20 py-10 shadow-xl">
       <motion.div
         className="md:w-1/2 relative mr-10"
         initial={{ opacity: 0, x: -50 }}
