@@ -16,7 +16,7 @@ const Contact = () => {
       <div className="relative h-[60vh] w-full " onClick={handleClick}>
         <iframe
           title="Google Map"
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d22133.25963487685!2d19.656343597485336!3d46.0978049512231!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x474366c168af38f9%3A0xdf19bd922a3d838e!2z0KHRg9Cx0L7RgtC40YbQsA!5e0!3m2!1ssr!2srs!4v1739379602181!5m2!1ssr!2srs"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d16412.521705777697!2d16.592041000000002!3d59.05599254999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x465ec163511dde7f%3A0x21a2a66f0a3c7dde!2sFlen!5e0!3m2!1ssr!2sse!4v1763319822792!5m2!1ssr!2sse"
           className="absolute w-full h-full"
           allowFullScreen=""
           loading="lazy"
@@ -48,13 +48,13 @@ const Contact = () => {
                 <div className="flex flex-col items-center">
                   <LocationOnIcon className="text-primary text-4xl mb-4" />
                   <p className="text-gray-700 text-center">
-                    Beogradski put, Subotica
+                    Flen, Sweden
                   </p>
                 </div>
                 <div className="flex flex-col items-center">
                   <LocalPhoneIcon className="text-primary text-4xl mb-4" />
                   <p className="text-gray-700 text-center">
-                    +381 65 527 2109
+                    +46735831302
                   </p>
                 </div>
                 <div className="flex flex-col items-center">

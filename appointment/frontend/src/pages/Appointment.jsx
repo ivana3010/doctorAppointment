@@ -124,9 +124,9 @@ const Appointment = () => {
             ))
           }
         </div>
-        <div className='flex justify-between items-center mt-10'>
-       <button className=' bg-primary py-3 px-14 rounded-full font-medium text-white hover:translate-y-[-10px] transition-all duration-500'><CheckCircleOutlineIcon className='mr-2 ' />Book an appointment</button>
-       <button  className='bg-primary text-white hover:translate-y-[-10px] transition-all duration-500 rounded-full py-3 px-14' onClick={()=>{navigate('/doctors'); scrollTo(0, 0);}}><CancelIcon  /> Cancel</button>
+        <div className='flex flex-row md:justify-between md:gap-0 gap-14 items-center mt-10 '>
+       <button className=' bg-primary md:py-3 py-2 px-3 md:px-14 rounded-full font-medium text-white hover:translate-y-[-10px] transition-all duration-500'><CheckCircleOutlineIcon className='mr-2 ' />Book an appointment</button>
+       <button  className='bg-primary text-white hover:translate-y-[-10px] transition-all duration-500 rounded-full md:py-3 py-2 md:px-14 px-3' onClick={()=>{navigate('/doctors'); scrollTo(0, 0);}}><CancelIcon  /> Cancel</button>
        </div>
       </div>
     </div>

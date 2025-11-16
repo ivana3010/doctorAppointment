@@ -1,6 +1,7 @@
 import React from 'react'
 import { specialityData } from '../assets/assets'
 import {Link} from 'react-router-dom'
+import ChevronRightIcon from '@mui/icons-material/ChevronRight';
 
 
 const SpecialityMenu = () => {
@@ -11,7 +12,7 @@ const SpecialityMenu = () => {
         <div className='flex sm:justify-center gap-16 pt-5 w-full overflow-scroll'>
             {specialityData.map((item,index)=>(
                <Link onClick={() => scrollTo(0, 0)} className='flex flex-col items-center text-sm font-normal cursor-pointer flex-shrink-0 hover:translate-y-[-10px] transition-all duration-500' key={index} to={`/doctors/${item.speciality}`}>
-               <div className="w-16 h-16 sm:w-24 sm:h-24 rounded-full overflow-hidden border bg-blue-50 px-1 flex items-center justify-center">
+               <div className="w-16 h-16 sm:w-24 sm:h-24 rounded-full overflow-hidden border bg-blue-100 px-1 flex items-center justify-center">
                    <img src={item.image} alt="" />
                </div>
                <p>{item.speciality}</p>

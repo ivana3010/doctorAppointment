@@ -6,7 +6,7 @@ const MyProfile = () => {
     name: 'Ivana Gabric',
     image: assets.profile,
     email: 'ivanagabricm@gmail.com',
-    phone: '0655272109',
+    phone: '+46735831302',
     dob: '2000-10-30'
   })
   const [isEditable, setIsEditable] = useState(true)

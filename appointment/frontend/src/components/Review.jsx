@@ -25,7 +25,7 @@ const Banner = () => {
           navigation
           className="rounded-lg shadow-lg">
           {reviews.map((review, index) => (
-            <SwiperSlide key={index} className="bg-blue-50 p-10 rounded-lg pl-20">
+            <SwiperSlide key={index} className="bg-blue-100 p-10 rounded-lg pl-20">
                 <Rating name="read-only" value={'5'} readOnly />
               <p className="text-[17px] font-normal italic">"{review.text}"</p>
               <p className="text-right mt-4 font-normal mr-5">- {review.name}</p>

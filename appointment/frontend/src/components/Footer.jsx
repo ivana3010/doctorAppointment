@@ -8,9 +8,9 @@ import { Checkbox, TextField } from '@mui/material';
 
 const Footer = () => {
     return (
-        <div className='bg-[rgba(163,201,241,0.12)] rounded-lg mt-10 px-6 pt-9'>
+        <div className='bg-blue-100 rounded-lg mt-10 px-6 pt-9'>
             <div className='grid grid-cols-1 sm:grid-cols-[2fr_1fr] gap-10 text-sm'>
-                <div className='flex flex-col items-center sm:items-start text-primary text-2xl'>
+                <div className='flex flex-col items-center sm:items-start text-blue-400 text-2xl'>
                     <img className='mb-6 w-40' src={assets.logo1} alt="Logo" />
                     <div className='flex gap-4'>
                         <FacebookIcon className='cursor-pointer hover:scale-110 transition-transform' />
@@ -30,7 +30,7 @@ const Footer = () => {
                             size="small"
                             className='w-full bg-white rounded-md'
                         />
-                        <button className='border border-primary text-primary hover:bg-primary hover:text-white px-4 rounded-md transition-all duration-300'>
+                        <button className='border border-primary text-blue-600 hover:bg-blue-600 hover:text-white px-4 rounded-md transition-all duration-300'>
                             Subscribe
                         </button>
                     </div>
@@ -43,7 +43,7 @@ const Footer = () => {
 
             <div className='mt-10'>
                 <hr className='border-gray-300' />
-                <p className=' text-sm text-center text-gray-600 p-3'>© 2024 Althea - All Rights Reserved.</p>
+                <p className=' text-sm text-center text-blue-600 p-3'>© 2024 Althea - All Rights Reserved.</p>
             </div>
         </div>
     )
